@@ -1,0 +1,47 @@
+
+.shoes{
+    text-align: center;
+    color: white;
+    margin-top: 0.8rem;
+}
+.shoe-btn{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 3rem;
+}
+.shoe-btn button{
+    border: 2px solid white;
+    background-color: #282c34;
+    color: white;
+    padding: 0.6rem 0.7rem;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.shoe-btn button:hover{
+    background-color: teal;
+    transition: 0.5s all ease;
+    transform: scale(1.12);
+}
+.search{
+    margin-top: 1.8rem;
+    border: 0;
+    outline: 0;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    width: 400px;
+}
+.images{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.shoe-box{
+    border: 2px solid #fff;
+    padding: 0.7rem;
+    border-radius: 6px;
+}
